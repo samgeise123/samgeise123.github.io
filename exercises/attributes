@@ -1,9 +1,0 @@
-<!DOCTYPE html>
-<html>
-<body>
-  <a href="https://www.w3schools.com">This is a link</a>
-  <img src="https://www.cesarsway.com/sites/newcesarsway/files/styles/large_article_preview/public/The-stages-of-puppy-growth.jpg?itok=9ptPJwY8">
-  <img src="https://www.cesarsway.com/sites/newcesarsway/files/styles/large_article_preview/public/The-stages-of-puppy-growth.jpg?itok=9ptPJwY8" width="50" height="70">
-  <img src="https://www.cesarsway.com/sites/newcesarsway/files/styles/large_article_preview/public/The-stages-of-puppy-growth.jpg?itok=9ptPJwY8" alt="Puppy playing fetch">
-</body>
-</html>
