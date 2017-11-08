@@ -7,16 +7,10 @@
     <link href="index.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-
-   <h1>HTML Reference Page</h1> 
-    
-   <a href="/index.html">
-    <img src="http://www.tedthomas.com/wp-content/uploads/2017/01/home1.png" alt="Exercises Home"
-       style="width:42px;height:42px;border:0;">
-   </a>
+   <h1 class="theadstyle">HTML Reference Page</h1>
    
    <table style="width:100%">
-  <tr>
+  <tr class="tablestyle">
     <th>Name</th>
     <th>Start Tag</th> 
     <th>End Tag</th>
@@ -106,97 +100,97 @@
     <td>&lt;/div&gt;</td>
     <td>&lt;div&gt;block elements&lt;/div&gt;</td>
   </table>
-
-   <h2 id="html">HTML</h2>
-   <p>Html stands for HyperText Markup Language which is a standarized text system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.</p>
-   <p>&lt;html&gt;at the start, &lt;/html&gt;at the end</p>
+  <hr>
+   
+   <h2 id="html" class="headstyle">HTML</h2>
+   <p class="descriptions">Html stands for HyperText Markup Language which is a standarized text system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.</p>
+   <p>start tag: &lt;html&gt;<br>content: head and body elements<br>end tag: &lt;/html&gt;</p>
+   <p class="examples">start tag: &lt;html&gt;<br>content: head and body elements<br>end tag: &lt;/html&gt;</p>
    <a href="https://www.w3schools.com/html/html_intro.asp">W3schools HTML Page</a>
    
-   <h2 id="head">Head</h2>
-   <p>The Head represents a container for introductory content or a set of navigational links.</p>
+   <h2 id="head" class="headstyle">Head</h2>
+   <p class="descriptions">The Head represents a container for introductory content or a set of navigational links.</p>
    <p>&lt;head&gt;</p>
-   <p>&lt;head&gt;Pancakes&lt;/head&gt;</p>
+   <p class="examples">&lt;head&gt;Pancakes&lt;/head&gt;</p>
    <a href="https://www.w3schools.com/tags/tag_header.asp">W3schools Header Page</a>
    
-   <h2 id="title">Title</h2>
-   <p>The title tag is required in all HTML documents and it defines the title of the document.</p>
+   <h2 id="title" class="headstyle">Title</h2>
+   <p class="descriptions">The title tag is required in all HTML documents and it defines the title of the document.</p>
    <p>&lt;title&gt;</p>
-   <p>&lt;title&gt;repl.it&lt;/title&gt;</p>
+   <p class="examples">&lt;title&gt;repl.it&lt;/title&gt;</p>
    <a href="https://www.w3schools.com/tags/tag_title.asp">W3schools Title Page</a>
    
-   <h2 id="body">Body</h2>
-   <p>The Body tag defines the main content of the HTML document or the section of the HTML document that will be directly visible on your web page.</p>
+   <h2 id="body" class="headstyle">Body</h2>
+   <p class="descriptions">The Body tag defines the main content of the HTML document or the section of the HTML document that will be directly visible on your web page.</p>
    <p>&lt;body&gt;</p>
+   <p class="examples">&lt;body&gt;<br>body elements<br>&lt;/body&gt;</p>
    <a href="https://www.w3schools.com/tags/tag_body.asp">W3schools Body Page</a>
    
-   <h2 id="headings">Headings</h2>
-   <p>The headings elementimplies all the font changes, paragraph breaks before and after, and any white space necessary to render the heading.</p>
-   <p>&lt;h1&gt;</p>
-   <p>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;</p>
+   <h2 id="headings" class="headstyle">Headings</h2>
+   <p class="descriptions">The headings elementimplies all the font changes, paragraph breaks before and after, and any white space necessary to render the heading.</p>
+   <p class="examples">&lt;h1&gt;<br>&lt;h2&gt;<br>&lt;h3&gt;</p>
    <h1>An Example Heading</h1>
    <a href="https://www.w3schools.com/html/html_headings.asp">W3schools Headings Page</a>
    
-   <h2 id="paragraph">Paragraph</h2>
-   <p>Paragraphs usually represented in visual media as blocks of text that are separated from adjacent blocks by vertical blank space</p>
+   <h2 id="paragraph" class="headstyle">Paragraph</h2>
+   <p class="descriptions">Paragraphs usually represented in visual media as blocks of text that are separated from adjacent blocks by vertical blank space</p>
    <p>&lt;p&gt;, &lt;/p&gt;</p>
-   <p>This is an example paragraph</p>
+   <p class="examples">&lt;p&gt;This is an example paragraph&lt;p&gt;</p>
    <a href="https://www.w3schools.com/html/html_paragraphs.asp">W3schools Paragraph Page</a>
    
-   <h2 id="breaks">Breaks</h2>
-   <p>The HTML <br> element produces a line break in text. Must have a start tag, and must not have an end tag.</p>
+   <h2 id="breaks" class="headstyle">Breaks</h2>
+   <p class="descriptions">The HTML &lt;br&gt; element produces a line break in text. Must have a start tag, and must not have an end tag.</p>
    <p>&lt;br&gt;</p>
    <p>This is&lt;br&gt; some text</p>
-   <p>This is<br>break example</p>
+   <p class="examples">This is<br>break example</p>
    <a href="https://www.w3schools.com/tags/tag_br.asp">W3schools Breaks Page</a>
    
-   <h2 id="lines">Lines</h2>
-   <p>The &lt;hr&gt; tag defines a thematic break in an HTML page</p>
+   <h2 id="lines" class="headstyle">Lines</h2>
+   <p class="descriptions">The &lt;hr&gt; tag defines a thematic break in an HTML page</p>
    <p>&lt;hr&gt;</p>
    <hr>
    <a href="https://www.w3schools.com/tags/tag_hr.asp">W3schools Lines hr Page</a>
    
-   <h2 id="comments">Comments</h2>
-   <p>HTML comments are visible to anyone that views the page source code, but are not rendered when the HTML document is rendered by a browser.</p>
-   <p>&lt;!-- I love pancakes  --&gt;</p>
+   <h2 id="comments" class="headstyle">Comments</h2>
+   <p class="descriptions">HTML comments are visible to anyone that views the page source code, but are not rendered when the HTML document is rendered by a browser.</p>
+   <p class="examples">&lt;!-- I love pancakes  --&gt;</p>
    <a href="https://www.w3schools.com/html/html_comments.asp">W3schools Comments Page</a>
    
-   <h2 id="links">Links</h2>
-   <p>The HTML <link> element specifies relationships between the current document and an external resource.</p>
+   <h2 id="links" class="headstyle">Links</h2>
+   <p class="descriptions">The HTML &lt;link&gt; element specifies relationships between the current document and an external resource.</p>
    <p>&lt;a&gt;</p>
-   <a href="https://www.w3schools.com/">This is an example</a>
-   <p>&lt;a href="https://www.w3schools.com/html/">Text&gt;</p>
+   <p class="examples">&lt;a href="https://www.w3schools.com/html/">Text&gt;</p>
    <a href="https://www.w3schools.com/html/html_links.asp">W3schools Links Page</a>
    
-   <h2 id="images">Images</h2>
-   <p> Images are not technically inserted into an HTML page, images are linked to HTML pages. The <img> tag creates a holding space for the referenced image.</p>
+   <h2 id="images" class="headstyle">Images</h2>
+   <p class="descriptions"> Images are not technically inserted into an HTML page, images are linked to HTML pages. The <img> tag creates a holding space for the referenced image.</p>
    <p>&lt;img&gt;</p>
-   <p>&lt;img src="img_girl.jpg" alt="Girl in a jacket"&gt;</p>
+   <p class="examples">&lt;img src="img_girl.jpg" alt="Girl in a jacket"&gt;</p>
    <a href="https://www.w3schools.com/html/html_images.asp">W3schools Images Page</a>
-   <img src="https://i.ebayimg.com/thumbs/images/g/BtgAAOSwIgNXvQs~/s-l225.jpg" alt="Girl in a jacket">
    
-   <h2 id="lists">Lists</h2>
-   <p>An unordered list starts with the &lt;ul&gt; tag. Each list item starts with the &lt;li&gt; tag. An ordered list starts with the &lt;ol&gt; tag.</p>
+   <h2 id="lists" class="headstyle">Lists</h2>
+   <p class="descriptions">An unordered list starts with the &lt;ul&gt; tag. Each list item starts with the &lt;li&gt; tag. An ordered list starts with the &lt;ol&gt; tag.</p>
    <p>&lt;ul&gt;, &lt;li&gt;, &lt;ol&gt;</p>
-   <ol>
+   <ol class="examples">
     <li>Coffee</li>
     <li>Tea</li>
     <li>Milk</li>
    </ol>
    <a href="https://www.w3schools.com/html/html_lists.asp">W3schools Lists Page</a>
    
-   <h2 id="tables">Tables</h2>
-   <p>Each table row is defined with the &lt;tr&gt; tag. A table header is defined with the &lt;th&gt; tag. By default, table headings are bold and centered. A table data/cell is defined with the &lt;td&gt; tag.</p>
+   <h2 id="tables" class="headstyle">Tables</h2>
+   <p class="descriptions">Each table row is defined with the &lt;tr&gt; tag. A table header is defined with the &lt;th&gt; tag. By default, table headings are bold and centered. A table data/cell is defined with the &lt;td&gt; tag.</p>
    <p>&lt;tr&gt;, &lt;th&gt;, &lt;td&gt;</p>
+   <p class="examples">&lt;tr&gt;<br>table elements<br>&lt;/tr&gt;</p>
     <a href="https://www.w3schools.com/html/html_tables.asp">W3schools Tables Page</a>
     
-    <h2 id="blocks">Blocks</h2>
-    <p>A block-level element always starts on a new line and takes up the full width available. The &lt;div&gt; element is a block-level element.</p>
+    <h2 id="blocks" class="headstyle">Blocks</h2>
+    <p class="descriptions">A block-level element always starts on a new line and takes up the full width available. The &lt;div&gt; element is a block-level element.</p>
     <p>&lt;div&gt;hello&lt;/div&gt;</p>
+    <p class="examples">&lt;div&gt;<br>some text here<br>&lt;br&gt;</p>
     <a href="https://www.w3schools.com/html/html_blocks.asp">W3schools Blocks Page</a>
    
-
    </body>
 </html>
-
 
 
