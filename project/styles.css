@@ -1,0 +1,17 @@
+.content {
+  background-color:#f7e6ff;
+}
+
+.content p {
+  font-family:"Ariel", sans-serif;
+  color:black;
+}
+
+.columnimage {
+  width:100%;
+}
+
+.columnimage2 {
+  width:100%;
+  height:100%;
+}
