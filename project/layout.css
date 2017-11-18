@@ -8,22 +8,23 @@ body {
 
 /* Style the header */
 .header {
-    background-color: #f1f1f1;
+    background-color: darkblue;
     padding: 20px;
     text-align: center;
+    color: white;
 }
 
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color:white;
 }
 
 /* Style the topnav links */
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -31,13 +32,13 @@ body {
 
 /* Change color on hover */
 .topnav a:hover:not(.active) {
-    background-color: #ddd;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 /* indicate active page on nav */
 .active {
-    background-color: #4CAF50;
+    background-color: purple;
 }
 
 /* A - Create three unequal columns that floats next to each other */
