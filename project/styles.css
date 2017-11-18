@@ -1,10 +1,10 @@
 .content {
-  background-color:#f7e6ff;
+  background-color: darkred;
 }
 
 .content p {
   font-family:"Ariel", sans-serif;
-  color:black;
+  color:white;
 }
 
 .columnimage {
@@ -19,4 +19,9 @@
 .image {
   width:100%;
   height:100%;
+}
+
+.table {
+  width:100%;
+  color:white;
 }
